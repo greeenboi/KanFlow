@@ -1,0 +1,19 @@
+[package]
+name = "kanflow"
+version = "0.1.0"
+authors = ["greeenboi <suvan.gowrishanker.204@gmail.com>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+dioxus-desktop = { version = "0.4" }
+dioxus = { version = "0.4" }
+
+dioxus-router = { version = "0.4" }
+
+# Debug
+log = "0.4.19"
+dioxus-logger = "0.4.1"
+
